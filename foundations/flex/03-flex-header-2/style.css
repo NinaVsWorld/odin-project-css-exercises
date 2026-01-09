@@ -8,10 +8,26 @@ body {
   font-family: Besley, serif;
 }
 
+.left {
+  display: flex;
+  gap: 16px;
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+}
+
+.left, .right {
+  margin: 8px;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -45,4 +61,9 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 16px;
+  align-items: center;
 }
